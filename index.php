@@ -17,7 +17,7 @@
     <ul>
         <li v-for="disco in dischi">
             <div class="wrap-image">
-              <img src ="disco.poster" alt="cd.title">
+              <img :src ="disco.poster" :alt="disco.title">
             </div>
             <h3 class="title">{{disco.title}}</h3>
             <div class="author">{{disco.author}}</div>
